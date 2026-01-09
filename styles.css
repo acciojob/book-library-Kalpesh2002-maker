@@ -1,8 +1,11 @@
 /*  your css code here. If applicable */
-<style>
     body {
       background-color: #f8f8f8;
       font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
     }
 
     .book-library {
@@ -10,6 +13,7 @@
       width: 300px;
       margin: 20px auto;
       padding: 10px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     }
 
     .book {
@@ -23,7 +27,7 @@
       object-fit: cover;
     }
 
-    .book h3 {
+    .book h2 {
       margin: 10px 0 5px;
     }
 
